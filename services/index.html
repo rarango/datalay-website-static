@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linux infrastructure services — Datalay</title>
+  <meta name="description" content="Senior Linux engineering, networks, resilience, private AI, secure integration, automation, and ongoing operation shaped around the needs of your organisation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="/">Datalay<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="/services/" aria-current="page">Services</a>
+        <a href="/how-we-work/">How we work</a>
+        <a href="/company/">Company</a>
+        <a href="/contact/">Contact</a>
+        <a class="es" href="/es/services/">Español</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero page-hero" aria-labelledby="page-title">
+      <div class="wrap">
+        <p class="eyebrow">Services</p>
+        <h1 id="page-title">Senior Linux expertise, shaped around what you need.</h1>
+        <p class="lead">We do not sell a catalogue of fixed packages. We help define the result your organisation needs and the most useful division of responsibility for reaching it.</p>
+        <p class="lead">That may mean a contained investigation, a programme of improvement, support and training for an internal team, responsibility for selected systems, or complete operation of the Linux infrastructure. The technical disciplines below are the building blocks. In practice, they frequently overlap.</p>
+      </div>
+    </section>
+
+    <section class="service-block" aria-labelledby="linux-title">
+      <div class="wrap">
+        <div class="section-head wide">
+          <h2 id="linux-title">Linux systems engineering</h2>
+          <p>Linux systems become critical quietly. A server introduced for one application gains dependencies; a temporary configuration becomes permanent; a fleet grows faster than its operating practices. Reliability comes from understanding and controlling the whole lifecycle, not merely keeping each machine powered on.</p>
+        </div>
+        <div class="card-grid cols-2">
+          <article class="card">
+            <h3>Provisioning and lifecycle</h3>
+            <p>Deliberate installation, configuration, patching, upgrades, capacity planning, and retirement for physical and virtual Linux systems. Changes are planned with the service in mind and with a safe way back when one does not behave as expected.</p>
+          </article>
+          <article class="card">
+            <h3>Configuration and consistency</h3>
+            <p>We identify undocumented differences, fragile manual steps, and configuration drift. We reduce that drift by bringing system configuration under control, making changes understandable, reviewable, and reproducible wherever the environment allows. Where it pays, running state becomes versioned configuration or automation that can be reviewed, repeated, and reconstructed.</p>
+          </article>
+          <article class="card">
+            <h3>Modern runtimes and infrastructure tools</h3>
+            <p>We operate traditional services alongside virtual machines and container runtimes such as Docker and Podman, using Git-based configuration and declarative infrastructure where they improve the result. We can also work with existing environments built around KVM, Proxmox, Terraform, or other established tools. A technology is not the outcome: we assess how well it is maintained, how it fits the underlying Linux platform, and whether it makes the system more reliable or merely more complicated.</p>
+          </article>
+          <article class="card">
+            <h3>Identity and administrative access</h3>
+            <p>Accounts, SSH access, privilege boundaries, directory integration, and the operational ability to answer who can reach a system and why.</p>
+          </article>
+          <article class="card">
+            <h3>Virtualisation, storage, and performance</h3>
+            <p>Hypervisors, virtual machines, storage layers, memory, CPU, and I/O behaviour. We diagnose the space between application symptoms and infrastructure causes, then plan capacity from evidence rather than guesswork.</p>
+          </article>
+          <article class="card">
+            <h3>Inherited infrastructure</h3>
+            <p>When systems arrive without reliable documentation or their original engineer, we map what exists before making it cleaner: exposed services, scheduled work, dependencies, access, storage health, backup state, and operational risk.</p>
+          </article>
+        </div>
+        <div class="situations">
+          <h3>Representative situations</h3>
+          <ul>
+            <li>A production service is unstable and previous fixes have not identified the cause.</li>
+            <li>Linux servers have grown by hand and need a consistent, supportable baseline.</li>
+            <li>Resource constraints are beginning to affect performance or future growth.</li>
+            <li>A key systems engineer is leaving and operational knowledge must be retained.</li>
+            <li>An internal team needs senior Linux support for work outside its normal experience.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-block" aria-labelledby="net-title">
+      <div class="wrap">
+        <div class="section-head wide">
+          <h2 id="net-title">Networks and secure access</h2>
+          <p>A Linux service is only as dependable as the paths that reach it. Networks often accumulate decisions invisibly, then become difficult to change precisely when the business needs them to move.</p>
+        </div>
+        <div class="card-grid cols-2">
+          <article class="card">
+            <h3>Firewalls and segmentation</h3>
+            <p>Reviewing and restructuring rules so they reflect current services and access needs. Removing obsolete exposure, separating systems appropriately, and leaving a ruleset that can be understood and changed safely.</p>
+          </article>
+          <article class="card">
+            <h3>Reverse proxies, published services, and TLS</h3>
+            <p>Reliable publication of internal services, including TLS termination, routing, load distribution where required, certificate lifecycle, and a clear picture of what is exposed to the outside world.</p>
+          </article>
+          <article class="card">
+            <h3>VPNs and remote access</h3>
+            <p>Controlled access for administrators, remote teams, partner systems, sites, and cloud environments without exposing more infrastructure than the work requires.</p>
+          </article>
+          <article class="card">
+            <h3>Routing and connectivity</h3>
+            <p>Addressing, network paths, provider links, site-to-site communication, and the less visible dependencies that have to remain predictable during migrations, office moves, or provider changes.</p>
+          </article>
+        </div>
+        <div class="situations">
+          <h3>Representative situations</h3>
+          <ul>
+            <li>A firewall contains years of rules that nobody is confident enough to change.</li>
+            <li>A service must be published securely without creating a fragile exception.</li>
+            <li>Two sites or networks need stable, maintainable connectivity.</li>
+            <li>Network behaviour is contributing to an application problem but the boundary is unclear.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-block" aria-labelledby="resilience-title">
+      <div class="wrap">
+        <div class="section-head wide">
+          <h2 id="resilience-title">Reliability, capacity, and operational resilience</h2>
+          <p>Resilience is not an emergency response product. It is the result of routine decisions made well: enough capacity, meaningful visibility, controlled change, known recovery paths, and attention before a warning becomes an incident.</p>
+        </div>
+        <div class="card-grid cols-2">
+          <article class="card">
+            <h3>Monitoring that supports decisions</h3>
+            <p>We monitor health, behaviour, and resource trends, not simply whether a host answers. Alerts should point to action; capacity data should provide enough warning to plan; silence should mean something more useful than a failed monitoring agent. More monitoring is not automatically better: overlapping checks, repeated notifications, and poorly designed escalations can turn useful signals into noise. The system has to reflect the people, schedules, responsibilities, and services around it.</p>
+            <p>Monitoring can range from straightforward, dependable checks and notifications to private AI-assisted analysis that correlates events, identifies trends, and turns technical signals into clearer operational information. The tools change; the objective does not—the right information must reach the right people in time to act.</p>
+          </article>
+          <article class="card">
+            <h3>Capacity and performance</h3>
+            <p>We examine demand, bottlenecks, and resource use across systems, virtualisation, storage, and networks. The aim is neither permanent overprovisioning nor running at the edge, but sufficient, efficient capacity with room for expected change.</p>
+          </article>
+          <article class="card">
+            <h3>Backups and tested recovery</h3>
+            <p>A completed backup job is evidence that data was written, not that a service can be restored. We design and review backup arrangements, verify what they contain, test restoration, and document the sequence required to recover systems and dependencies.</p>
+          </article>
+          <article class="card">
+            <h3>Continuity and failure planning</h3>
+            <p>We work through realistic failures: a disk, host, network path, provider, site, or human error. Priorities, dependencies, recovery objectives, and acceptable trade-offs are established before the organisation has to make those decisions under pressure.</p>
+          </article>
+          <article class="card">
+            <h3>Controlled maintenance</h3>
+            <p>Patching, upgrades, certificate renewal, housekeeping, and recurring checks are planned and automated where useful. Preventive work should be routine enough to be unremarkable and visible enough to be trusted.</p>
+          </article>
+        </div>
+        <p class="pull">When a service cannot stop, the change must be engineered so that it does not.</p>
+        <p class="measure" style="margin-top: 1.25rem;">Reliability requirements are different for every service. Some changes can use a planned maintenance window; others require redundant systems, controlled failover, or a migration path with no interruption visible to users.</p>
+      </div>
+    </section>
+
+    <section class="service-block" aria-labelledby="security-title">
+      <div class="wrap">
+        <div class="section-head wide">
+          <h2 id="security-title">Security as an operating discipline</h2>
+          <p>Security weakens when it is treated as a one-time project. Emergency changes, new services, staff changes, and postponed updates gradually alter the original baseline. We build security into normal systems operation so that it survives the next change.</p>
+        </div>
+        <div class="card-grid cols-2">
+          <article class="card">
+            <h3>System hardening</h3>
+            <p>Reducing unnecessary services and exposure, applying appropriate operating system controls, maintaining secure defaults, and recording the decisions so that they are not silently undone later.</p>
+          </article>
+          <article class="card">
+            <h3>Access boundaries and review</h3>
+            <p>Keeping administrative access deliberate, removing stale paths, separating privileges, and making access review a manageable process rather than an archaeological exercise.</p>
+          </article>
+          <article class="card">
+            <h3>Vulnerability and audit remediation</h3>
+            <p>Assessing infrastructure findings, deciding what they mean in the actual environment, and turning them into controlled technical changes. We support the infrastructure side of security and compliance work without pretending that a configuration change alone creates compliance.</p>
+          </article>
+          <article class="card">
+            <h3>Incidents and root cause</h3>
+            <p>When a serious failure or security concern occurs, we help establish what is known, contain risk, recover safely, and investigate the cause. The lasting deliverable is not only a restored service but the structural work that makes a repeat less likely.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-block" aria-labelledby="auto-title">
+      <div class="wrap prose">
+        <div class="section-head wide">
+          <h2 id="auto-title">Automation, documentation, and team enablement</h2>
+          <p>These are not extras added after the engineering. They are how good engineering continues to work after the immediate task is complete.</p>
+          <p>Recurring configuration and operational tasks are automated when doing so makes them safer, more consistent, and easier to review. Changes and architectural decisions are recorded in a form useful to the people who will operate the systems next.</p>
+          <p>We can also work explicitly to increase the capability of an internal team: pairing on difficult work, reviewing designs and changes, explaining decisions, creating practical runbooks, and training colleagues around their own environment. Successful collaboration may lead to wider responsibility for Datalay, greater independence for the client, or both in different parts of the infrastructure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="private-ai" class="ai-section scroll-target" aria-labelledby="private-ai-title">
+      <div class="ai-panel">
+        <div class="ai-intro">
+          <p class="eyebrow">Private AI · Operational intelligence · Secure integration</p>
+          <h2 id="private-ai-title">Use AI without giving up control.</h2>
+          <p>AI can make an organisation's knowledge easier to use, help people learn their roles, interpret operational information, and connect established systems with new ways of working. It does not have to mean uploading company documents to a public chatbot or replacing systems that already serve the business well.</p>
+          <p>Datalay designs the complete environment around the organisation: private infrastructure, authorised knowledge, secure integration, and the operational controls needed to make AI genuinely useful. The service begins with what the organisation wants to achieve, not with a predetermined model or product.</p>
+        </div>
+        <div class="ai-topics">
+          <article class="ai-topic">
+            <h3>Private AI inside your security boundary</h3>
+            <p>We design private AI environments within infrastructure controlled by your organisation. Models, documents, indexes, operational data, and system access are placed deliberately inside agreed security boundaries rather than submitted by default to a public AI platform.</p>
+            <p>The right boundary may be a local network, dedicated infrastructure, a private cloud environment, or a combination. We assess the systems available, explain the trade-offs, and design for the level of confidentiality, control, and capability the organisation requires.</p>
+          </article>
+          <article class="ai-topic">
+            <h3>Organisational knowledge people can use</h3>
+            <p>Important knowledge is often scattered between documentation, tickets, procedures, repositories, and the memory of experienced colleagues. When those people are unavailable or leave, transferring their context can become a major operational task.</p>
+            <p>We build private knowledge environments that help people find relevant architecture decisions, procedures, and incident history without relying entirely on a single colleague's memory or availability. Role-specific guidance can support technicians, operational staff, administration, and new team members using the information each person is authorised to access.</p>
+            <p>This is more than searching documents. The environment can be built around how work is actually performed: the questions people ask, the sequence of a procedure, the exceptions that matter, and the source that should support an answer.</p>
+          </article>
+          <article class="ai-topic">
+            <h3>Process guidance and assurance</h3>
+            <p>Private AI can help people follow complex processes while the work is taking place. It can surface the applicable procedure, identify missing information, check whether required steps have been recorded, and flag a result that may need review.</p>
+            <p>The purpose is not to hand judgement about employees to a model. AI makes relevant knowledge and evidence easier to use; responsibility for evaluating people and consequential decisions remains human.</p>
+          </article>
+          <article class="ai-topic">
+            <h3>From monitoring to operational understanding</h3>
+            <p>Datalay has designed monitoring and alerting systems around real client operations for many years. Useful monitoring accounts for technical conditions, responsibilities, schedules, escalation paths, and the communication channels that will produce a response.</p>
+            <p>Private AI-assisted analysis can extend that work by correlating metrics and logs, summarising events, identifying patterns, and highlighting trends before they become incidents. It complements proven monitoring and engineering judgement rather than replacing them with an autonomous black box.</p>
+          </article>
+          <article class="ai-topic">
+            <h3>Secure integration, APIs, and MCP</h3>
+            <p>An AI environment becomes useful when it can work safely with the organisation's real knowledge and systems. Datalay has long experience designing integrations across demanding business environments. We apply the same engineering discipline to modern AI workflows.</p>
+            <p>Existing systems do not have to be rewritten simply because a new interface is needed. We can use current APIs, construct purpose-built adapters, translate legacy protocols, or design new controlled access points around systems that continue to perform valuable work.</p>
+            <p>Where it fits the use case, Model Context Protocol (MCP) provides a standard way for authorised AI tools and agents to access selected information or actions. We design MCP interfaces with explicit permissions, narrow operational boundaries, auditable behaviour, and production infrastructure in mind. MCP is one integration tool—not the architecture by itself.</p>
+          </article>
+          <article class="ai-topic">
+            <h3>Built around the organisation, not a generic chatbot</h3>
+            <p>Different outcomes require different combinations of technology. Depending on the use case, the architecture may combine private models, retrieval over authorised internal sources, role-specific access, workflow automation, secure system integrations, and model fine-tuning where it provides a measurable benefit.</p>
+            <p>The question is not how much AI technology can be added. It is which combination makes the organisation more capable without introducing unnecessary complexity or risk. Datalay can design, deploy, integrate, operate, document, and transfer that environment with the level of responsibility that best fits the client.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="arrangements-title">
+      <div class="wrap">
+        <div class="contact-box">
+          <h2 id="arrangements-title">One need, many possible arrangements</h2>
+          <p class="lead">You do not need to decide which service label applies before contacting us. Describe what is happening, what outcome matters, and how your team works today. We will propose a sensible scope and a division of responsibility that can evolve when the need does.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="/contact/">Tell us what you need</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© Datalay Soluciones Informáticas S.L.</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/legal/">Legal notice</a>
+        <a href="/privacy/">Privacy</a>
+        <a class="es" href="/es/services/">Español</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../js/nav.js"></script>
+</body>
+</html>

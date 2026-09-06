@@ -1,0 +1,26 @@
+# Datalay
+
+> Senior Linux engineering across Europe. Reliable infrastructure, private AI, and secure integration — shaped around how each organisation works.
+
+Datalay Soluciones Informáticas S.L. is a Spanish infrastructure company (since 2003) working remotely with organisations in Spain and across Europe.
+
+## Site
+
+- [Home](https://www.datalay.com/): Overview and ways of working
+- [Services](https://www.datalay.com/services/): Linux systems, networks, resilience, security, automation, private AI
+- [How we work](https://www.datalay.com/how-we-work/): Engagement model and collaboration
+- [Company](https://www.datalay.com/company/): About Datalay
+- [Contact](https://www.datalay.com/contact/): Start a conversation — datalay@datalay.com
+
+## Spanish
+
+- [Inicio](https://www.datalay.com/es/)
+- [Servicios](https://www.datalay.com/es/services/)
+- [Cómo trabajamos](https://www.datalay.com/es/how-we-work/)
+- [Empresa](https://www.datalay.com/es/company/)
+- [Contacto](https://www.datalay.com/es/contact/)
+
+## Optional
+
+- [Legal notice](https://www.datalay.com/legal/)
+- [Privacy](https://www.datalay.com/privacy/)
